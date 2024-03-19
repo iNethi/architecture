@@ -50,6 +50,10 @@ For the purpose of explanation lets call _User 1_ in _Diagram 1_ H1 (hybrid user
 (hybrid user 2) and _User 1_ in _Diagram 2_ L1 (local user 1).
 
 ### Functional Differences
-- H1:
-- H2:
-- L1:
+- H1: can log in to any iNethi services whether locally hosted or hosted in the cloud using the same password. Can use 
+their RadiusDesk vouchers on multiple (networks if applicable).
+- H2: can log in to any iNethi services whether locally hosted or hosted in the cloud using the same password. Can use
+  their RadiusDesk vouchers on multiple (networks if applicable).
+- L1: can only log in to iNethi services within _Diagram 2's_ network with the keycloak credentials they have set up 
+using the community network in _Diagram 2_. Can only use their RadiusDesk vouchers for the network depicted in 
+_Diagram 2_.
