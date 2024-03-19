@@ -7,11 +7,11 @@ local architecture (diagram 2).
 
 **Diagram 1**
 
-<img src="diagrams/iNethi-mixed-architecture-overview.png" alt="hybrid architecture diagram" width="400"/>
+<img src="diagrams/iNethi-mixed-architecture-overview.png" alt="hybrid architecture diagram" width="800"/>
 
 **Diagram 2**
 
-<img src="diagrams/iNethi-local-architecture-overview.png" alt="local architecture diagram" width="400"/>
+<img src="diagrams/iNethi-local-architecture-overview.png" alt="local architecture diagram" width="800"/>
 
 In the above diagrams the mandatory docker services are detailed for a fully functional iNethi instance. Whether they 
 are locally hosted or hosted on a cloud server. When using the iNethi builder the services installed as system 
