@@ -42,3 +42,14 @@ Running local instances of keycloak would require them to have different credent
 services.
 
 ## the iNethi App
+The iNethi app requires a keycloak account for authentication if the user wants to access certain iNethi services. The
+app can be used within an iNethi network or outside using an external network connection. This is depicted in Diagram 1
+with _User 1_ being able to access the app within an iNethi network and _User 2_ accessing the network externally.
+
+For the purpose of explanation lets call _User 1_ in _Diagram 1_ H1 (hybrid user 1), _User 2_ in _Diagram 1_ H2 
+(hybrid user 2) and _User 1_ in _Diagram 2_ L1 (local user 1).
+
+### Functional Differences
+- H1:
+- H2:
+- L1:
