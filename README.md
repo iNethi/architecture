@@ -37,5 +37,8 @@ Disadvantages of a hybrid architecture
 access then users will not be able to access any network architecture that utilises Keycloak and RadiusDesk
 
 ### Differences to Users
+The obvious downside to using a local versus hybrid architecture is the ability for users to have an SSO environment.
+This would require them to have different credentials for every iNethi instance they interact with and for the cloud
+services.
 
 ## the iNethi App
