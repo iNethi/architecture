@@ -13,7 +13,21 @@ The user is connected to an iNethi network.
 <img src="diagrams/inethi-app-connected.png" alt="hybrid architecture diagram" width="600"/>
 
 #### Explanation
-- _API Call 1_:
-- _API Call 2_:
+- _API Call 1_: This is a call to the locally hosted [User management API](https://github.com/iNethi/manage-backend) 
+requesting the available services offered by the local server.
+- _API Call 2_: This is a call to the cloud hosted [User management API](https://github.com/iNethi/manage-backend) 
+requesting the available services offered by the global server.
+
+For any overlapping services the local service will be given priority.
 
 ### Not Connected to an iNethi Network
+The user is connected to an external network.
+<img src="diagrams/inethi-app-not-connected.png" alt="hybrid architecture diagram" width="600"/>
+
+#### Explanation
+- _API Call 1_: This is a call to the locally hosted [User management API](https://github.com/iNethi/manage-backend)
+  requesting the available services offered by the local server. This request will not resolve.
+- _API Call 2_: This is a call to the cloud hosted [User management API](https://github.com/iNethi/manage-backend)
+  requesting the available services offered by the global server.
+
+Given the local request did not resolve only the services offered globally will be listed.
