@@ -16,11 +16,11 @@ local architecture (diagram 2).
 In the above diagrams the mandatory docker services are detailed for a fully functional iNethi instance. Whether they 
 are locally hosted or hosted on a cloud server. When using the iNethi builder the services installed as system 
 requirements are:
-- Traefik
-- Prometheus
-- Grafana
-- InfluxDB
-- Blackbox 
+- [Traefik](https://traefik.io/traefik/)
+- [Prometheus](https://prometheus.io/)
+- [Grafana](https://grafana.com/)
+- [InfluxDB](https://www.influxdata.com/)
+- [Blackbox Exporter](https://prometheus.io/docs/guides/multi-target-exporter/)
 
 ### Differences in Architecture
 The hybrid architecture differs from the local architecture in one key way, [Keycloak](https://www.keycloak.org/) and 
