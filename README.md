@@ -1,6 +1,8 @@
 # iNethi Architecture
 Find the general iNethi architecture explain below and find documentation on various services [here](docs).
 
+**Please note this is a live doc**
+
 ## Architecture Types
 There are two iNethi architectures. Each has advantages and tradeoffs. There is a hybrid architecture (diagram 1) and a 
 local architecture (diagram 2).
