@@ -38,7 +38,7 @@ access then users will not be able to access any network architecture that utili
 
 ### Differences to Users
 The obvious downside to using a local versus hybrid architecture is the ability for users to have an SSO environment.
-This would require them to have different credentials for every iNethi instance they interact with and for the cloud
+Running local instances of keycloak would require them to have different credentials for every iNethi instance they interact with and for the cloud
 services.
 
 ## the iNethi App
