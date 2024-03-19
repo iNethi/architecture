@@ -8,5 +8,12 @@ user has an Internet connection, whether the user is connected to an iNethi Comm
 available if they are. The user cases are detailed below.
 
 ### Connected to an iNethi Network
+The user is connected to an iNethi network.
+
+<img src="diagrams/inethi-app-connected.png" alt="hybrid architecture diagram" width="600"/>
+
+#### Explanation
+- _API Call 1_:
+- _API Call 2_:
 
 ### Not Connected to an iNethi Network
