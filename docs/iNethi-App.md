@@ -22,6 +22,7 @@ For any overlapping services the local service will be given priority.
 
 ### Not Connected to an iNethi Network
 The user is connected to an external network.
+
 <img src="diagrams/inethi-app-not-connected.png" alt="hybrid architecture diagram" width="600"/>
 
 #### Explanation
